@@ -1,0 +1,55 @@
+.page.service {
+  background-image: url('./assets/Img_Home_Background@2x.png');
+  background-repeat: repeat;
+}
+
+.page.service .lozenge {
+  margin: 2rem 0;
+}
+
+.service__suggested {
+  font-size: 3.0rem;
+  line-height: 3.5rem;
+  margin: 2.0rem 0;
+}
+
+.service__links {
+  text-align: center;
+}
+
+.service__links a {
+  margin-right: 1.875rem;
+}
+
+.service__links a:last-of-type {
+  margin-right: 0;
+}
+
+.service__full-width-wrapper {
+  background: #757575;
+  margin-top: 1.5rem;
+}
+
+.service__alternatives-title {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  line-height: 2.0rem;
+  text-align: center;
+  margin: 1.5rem 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.service__footnote {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 1.125rem 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 992px) {
+  .service__links a {
+    margin-right: 0;
+  }
+}

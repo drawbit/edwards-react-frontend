@@ -1,0 +1,18 @@
+.header {
+  height: 6.1875rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header__logo {
+  height: 3.6875rem;
+  box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.15);
+}
+
+.header__logo img {
+  width: 10.625rem;
+  height: 1.875rem;
+  margin: 0.90625rem 0;
+}

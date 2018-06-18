@@ -1,0 +1,49 @@
+{
+  "apps": [
+    {
+      "name": "Edwards",
+      "script": "server",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "env" : {
+        "NODE_ENV": "development"
+      },
+      "env_staging" : {
+        "NODE_ENV": "staging"
+      },
+      "env_production" : {
+        "NODE_ENV": "production"
+      },
+      "append_env_to_name": true
+    }
+  ],
+  "deploy" : {
+    "development": {
+      "user": "deploy",
+      "host": "46.101.95.132",
+      "ref": "origin/master",
+      "repo": "git@bitbucket.org:davestevens/edwards.git",
+      "path": "/var/www/edwards-dev",
+      "post-setup": "ln -s ../shared/.env && ln -s ../../shared/config.json config/config.json",
+      "post-deploy": "npm install --production && NODE_ENV=production npm run migrate && pm2 startOrRestart ecosystem.config.json --env production"
+    },
+    "staging": {
+      "user": "deploy",
+      "host": "178.62.83.62",
+      "ref": "origin/master",
+      "repo": "git@bitbucket.org:davestevens/edwards.git",
+      "path": "/var/www/staging",
+      "post-setup": "ln -s ../shared/.env && ln -s ../../shared/config.json config/config.json",
+      "post-deploy": "npm install --production && NODE_ENV=staging npm run migrate && pm2 startOrRestart ecosystem.config.json --env staging"
+    },
+    "production": {
+      "user": "deploy",
+      "host": "178.62.83.62",
+      "ref": "origin/master",
+      "repo": "git@bitbucket.org:davestevens/edwards.git",
+      "path": "/var/www/production",
+      "post-setup": "ln -s ../shared/.env && ln -s ../../shared/config.json config/config.json",
+      "post-deploy": "npm install --production && NODE_ENV=production npm run migrate && pm2 startOrRestart ecosystem.config.json --env production"
+    }
+  }
+}

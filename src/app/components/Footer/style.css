@@ -1,0 +1,13 @@
+.footer {
+  height: 2.5rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer__text {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.125rem;
+  color: #ffffff;
+  margin: 0.6875rem 0;
+}

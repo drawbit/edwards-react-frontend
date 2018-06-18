@@ -1,0 +1,38 @@
+{
+  "HOME":  {
+    "path": "/",
+    "label": "Home"
+  },
+  "DETAILS": {
+    "path": "/details",
+    "label": "Your details"
+  },
+  "SELECTION": {
+    "path": "/selection",
+    "label": "Make a selection"
+  },
+  "APPLICATION": {
+    "path": "/selection/application",
+    "label": "Application"
+  },
+  "LOCATION": {
+    "path": "/selection/location",
+    "label": "Location" },
+  "MAINTENANCE": {
+    "path": "/selection/maintenance",
+    "label": "Maintenace"
+  },
+  "PUMP": {
+    "path": "/selection/pump",
+    "label": "Pump family"
+  },
+  "RISK": {
+    "path": "/selection/risk",
+    "label": "Risks"
+  },
+  "SERVICE": {
+    "path": "/service",
+    "label": "Service Solution",
+    "exact": false
+  }
+}

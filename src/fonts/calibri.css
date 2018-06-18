@@ -1,0 +1,58 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3423022, 2017-07-18T11:40:51-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Calibri-Italic by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/calibri/italic/
+ *
+ * Webfont: Calibri-BoldItalic by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/calibri/bold-italic/
+ *
+ * Webfont: Calibri-Bold by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/calibri/bold/
+ *
+ * Webfont: Calibri by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/calibri/regular/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3423022
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: &#x00A9; 2007 Microsoft Corporation. All Rights Reserved.
+ *
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/343b2e");
+
+
+@font-face {
+  font-family: 'Calibri-Italic';
+  src: url('webfonts/343B2E_0_0.eot');
+  src: url('webfonts/343B2E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/343B2E_0_0.woff2') format('woff2'),url('webfonts/343B2E_0_0.woff') format('woff'),url('webfonts/343B2E_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Calibri-BoldItalic';
+  src: url('webfonts/343B2E_1_0.eot');
+  src: url('webfonts/343B2E_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/343B2E_1_0.woff2') format('woff2'),url('webfonts/343B2E_1_0.woff') format('woff'),url('webfonts/343B2E_1_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Calibri-Bold';
+  src: url('webfonts/343B2E_2_0.eot');
+  src: url('webfonts/343B2E_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/343B2E_2_0.woff2') format('woff2'),url('webfonts/343B2E_2_0.woff') format('woff'),url('webfonts/343B2E_2_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('webfonts/343B2E_3_0.eot');
+  src: url('webfonts/343B2E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/343B2E_3_0.woff2') format('woff2'),url('webfonts/343B2E_3_0.woff') format('woff'),url('webfonts/343B2E_3_0.ttf') format('truetype');
+}

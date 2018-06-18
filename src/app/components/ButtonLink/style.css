@@ -1,0 +1,29 @@
+.buttonlink {
+  display: inline-block;
+  min-width: 22.5rem;
+  background-color: #ffffff;
+  border-radius: 48px;
+  box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.2);
+  color: #ec4045;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 1.25rem 2.5rem;
+  margin-bottom: 1rem;
+  transition: opacity 0.3s;
+}
+
+.buttonlink:hover,
+.buttonlink:focus,
+.buttonlink:active {
+  opacity: 0.6;
+  text-decoration: none;
+  color: #ec4045;
+}
+
+@media (max-width: 992px) {
+  .buttonlink {
+    min-width: auto;
+    width: 100%;
+  }
+}

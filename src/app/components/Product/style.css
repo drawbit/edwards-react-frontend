@@ -1,0 +1,25 @@
+.product {
+  margin-top: 1.5rem;
+}
+
+.product__buttons {
+  text-align: center;
+}
+
+.product__buttons a {
+  margin-right: 1.875rem;
+}
+
+.product__buttons a:last-of-type {
+  margin-right: 0;
+}
+
+.product__text {
+  background: #FFFFFF;
+  border-radius: 8px;
+  color: rgba(0,0,0,0.35);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 2.5rem 0;
+  padding: 2.0rem 6.125rem;
+}

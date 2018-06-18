@@ -1,0 +1,51 @@
+{
+  "name": "edwards",
+  "version": "0.4.3",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "csv-express": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.0.1",
+    "prompt": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sequelize": "^4.2.0",
+    "sequelize-cli": "^2.7.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "admin-on-rest": "^1.2.0",
+    "aor-rich-text-input": "^1.0.1",
+    "classnames": "^2.2.5",
+    "history": "^4.6.3",
+    "lodash": "^4.17.4",
+    "react-bootstrap": "^0.31.0",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-scripts": "1.0.7",
+    "react-slider": "^0.8.0",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0",
+    "sqlite3": "^3.1.8"
+  },
+  "scripts": {
+    "start": "node server",
+    "start:dev": "react-scripts start",
+    "build": "react-scripts build && rm build/static/*/*.map",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all",
+    "setup": "npm run migrate && npm run seed",
+    "commit-frontend": "if [[ -n $(git status build --porcelain) ]]; then git add -A build && git commit -m 'Include built assets'; fi",
+    "preversion": "npm run build && npm run commit-frontend"
+  },
+  "proxy": "http://localhost:9000"
+}
